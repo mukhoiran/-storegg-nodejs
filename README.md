@@ -1,1 +1,1 @@
-# -storegg-nodejs
+# storegg-nodejs
