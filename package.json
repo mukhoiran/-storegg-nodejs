@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mukhoiran/storegg-nodejs/issues"
   },
-  "homepage": "https://github.com/mukhoiran/storegg-nodejs#readme"
+  "homepage": "https://github.com/mukhoiran/storegg-nodejs#readme",
+  "dependencies": {
+    "casual": "^1.6.2"
+  }
 }
