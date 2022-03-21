@@ -8,8 +8,12 @@ const port = 2000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-//   res.end('Hello, World!\n');
-  res.end(casual.sentence);
+//   console.log(req.url);
+  if(req.url == '/sentence'){
+    res.end(casual.sentence);   
+  }else{
+    res.end('Hello, World!\n');
+  }
 });
 
 server.listen(port, hostname, () => {
